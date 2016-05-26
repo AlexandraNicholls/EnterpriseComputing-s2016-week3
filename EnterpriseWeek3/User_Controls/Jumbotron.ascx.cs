@@ -11,7 +11,7 @@ namespace EnterpriseWeek3.User_Controls
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            JumbotronH1.InnerText = "Welcome!";
         }
     }
 }
