@@ -6,7 +6,7 @@ using System.Web.UI;
 using System.Web.UI.WebControls;
 
 /**
-*@File Name: Default.aspx.cs
+*@File Name: About.aspx.cs
 *@Author: Alex Nicholls
 *@Site: Personal Profile
 *@Date: June 1, 2016
@@ -14,7 +14,7 @@ using System.Web.UI.WebControls;
 
 namespace EnterpriseWeek3
 {
-    public partial class Default : System.Web.UI.Page
+    public partial class About : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
