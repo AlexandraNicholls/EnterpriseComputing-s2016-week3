@@ -16,6 +16,9 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
                 <li id="Home" runat="server"><a href="Default.aspx"><i class="fa fa-bed fa-lg"></i> Home</a></li>
+                <li id="About" runat="server"><a href="About.aspx"><i class="fa fa-phone fa-lg"></i> Contact Us</a></li>
+                <li id="Products" runat="server"><a href="Products.aspx"><i class="fa fa-phone fa-lg"></i> Contact Us</a></li>
+                <li id="Services" runat="server"><a href="Services.aspx"><i class="fa fa-phone fa-lg"></i> Contact Us</a></li>
                 <li id="Contact" runat="server"><a href="Contact.aspx"><i class="fa fa-phone fa-lg"></i> Contact Us</a></li>
             </ul>
         </div>

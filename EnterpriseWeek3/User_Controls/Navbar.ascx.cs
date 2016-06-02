@@ -6,8 +6,9 @@ using System.Web.UI;
 using System.Web.UI.WebControls;
 
 /**
+*@File Name: 
 *@Author: Alex Nicholls
-*@date May 26, 2016
+*@Date: May 28, 2016
 */
 
 namespace EnterpriseWeek3
@@ -21,7 +22,7 @@ namespace EnterpriseWeek3
 
         /**
         * This  method adds a CSS class of "active" to list items, relative to navigation links
-        *
+        * to show the user that they are on this page.
         *@method SetActivePage
         *@return void
         */
@@ -31,6 +32,15 @@ namespace EnterpriseWeek3
             {
                 case "Home Page":
                     Home.Attributes.Add("class", "active");
+                    break;
+                case "About":
+                    About.Attributes.Add("class", "active");
+                    break;
+                case "Products":
+                    Products.Attributes.Add("class", "active");
+                    break;
+                case "Services":
+                    Services.Attributes.Add("class", "active");
                     break;
                 case "Contact":
                     Contact.Attributes.Add("class", "active");
